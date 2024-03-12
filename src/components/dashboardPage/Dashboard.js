@@ -18,7 +18,7 @@ const Dashboard = () => {
   const [schedules, setSchedules] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/schedules/').then((response) => {
+    axios.get(`${process.env.REACT_APP_SERVER_URL}/schedules/`).then((response) => {
       setSchedules(response.data);
     });
   }, []);

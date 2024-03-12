@@ -11,7 +11,7 @@ const MissionForm = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:8000/missions/", {
+      await axios.post(`${process.env.REACT_APP_SERVER_URL}/missions/`, {
         trajectory_id: trajectoryId,
         duration: duration,
         priority: priority,
