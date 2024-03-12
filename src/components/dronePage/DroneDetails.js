@@ -8,7 +8,7 @@ const DroneDetails = () => {
   const [drone, setDrone] = useState({});
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/drones/id/${id}`).then((response) => {
+    axios.get(`${process.env.REACT_APP_SERVER_URL}/drones/id/${id}`).then((response) => {
       setDrone(response.data);
     });
   }, [id]);
