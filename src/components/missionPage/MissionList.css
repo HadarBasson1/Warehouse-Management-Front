@@ -1,0 +1,43 @@
+.mission-list {
+  padding: 20px;
+}
+
+.mission-list h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.mission-list button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.mission-list button:hover {
+  background-color: #45a049;
+}
+
+.mission-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mission-item {
+  background-color: #f2f2f2;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.mission-item:hover {
+  background-color: #e0e0e0;
+  transition: background-color 0.3s;
+}

@@ -1,0 +1,33 @@
+.drone-details {
+    padding: 20px;
+    background-color: #cae3f6;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 60%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+
+  p#status {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  p#possible-missions {
+    font-style: italic;
+    color: #777;
+  }
+  
